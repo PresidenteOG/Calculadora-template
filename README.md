@@ -8,7 +8,7 @@
 
 A single-file calculator built as a self-contained web page.
 
-## Screenshot
+## Showcase
 
 ![Calculadora running in a browser, showing an addition in progress](./docs/screenshot.png)
 
