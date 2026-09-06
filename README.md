@@ -15,12 +15,6 @@ A single-file calculator built as a self-contained web page.
 *Real screenshot — the buttons were actually pressed (8 × 4 =) and this is the actual result on
 screen, not a mockup.*
 
-### Architecture
-
-![Calculadora architecture: browser UI feeds script.js, which updates the DOM](./docs/architecture.png)
-
-Full breakdown in [ARCHITECTURE.md](./ARCHITECTURE.md).
-
 ## What's here
 
 - `index.html` — the whole app: markup, styling and logic in one file. No build step, no
@@ -31,6 +25,8 @@ Full breakdown in [ARCHITECTURE.md](./ARCHITECTURE.md).
 Open `index.html` in any browser. That's it.
 
 ## Architecture
+
+![Calculadora architecture: browser UI feeds script.js, which updates the DOM](./docs/architecture.png)
 
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for how it's structured and what it demonstrates.
 
