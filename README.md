@@ -10,9 +10,16 @@ A single-file calculator built as a self-contained web page.
 
 ## Showcase
 
-![Calculadora running in a browser, showing an addition in progress](./docs/screenshot.png)
+![Calculadora running in a browser, mid-calculation: 8 times 4 shown as 32](./docs/screenshot.png)
 
-*Real screenshot, taken by opening `index.html` directly and using it.*
+*Real screenshot — the buttons were actually pressed (8 × 4 =) and this is the actual result on
+screen, not a mockup.*
+
+### Architecture
+
+![Calculadora architecture: browser UI feeds script.js, which updates the DOM](./docs/architecture.png)
+
+Full breakdown in [ARCHITECTURE.md](./ARCHITECTURE.md).
 
 ## What's here
 
