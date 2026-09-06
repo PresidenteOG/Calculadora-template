@@ -4,6 +4,16 @@ Built a working calculator — digits, the four basic operations, percentage, si
 input, backspace, clear — that runs from a single file with nothing to install: open it, use it.
 No framework, just HTML, CSS and JavaScript.
 
+It handles digit entry, the four basic operations, percentage, sign change, a running total, and
+clears — the same set of buttons you'd expect on a physical desk calculator, no more, no less.
+Type a number, pick an operation, type another number, hit equals, and it computes and displays
+the result; `AC` resets, `±` flips the sign of whatever's on screen, `%` converts the current value
+to a percentage.
+
+**Why vanilla JavaScript, no framework**: a single screen with a dozen buttons and one piece of
+state (the current expression) doesn't need a framework's overhead — React or Vue would add a
+build step and a bundle for something plain DOM updates handle fine.
+
 ## Structure
 
 Everything lives in `index.html`. One file, three parts, in order:
