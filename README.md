@@ -32,4 +32,5 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for how it's structured and what it dem
 
 ## License
 
-MIT — see [LICENSE](./LICENSE).
+PolyForm Noncommercial 1.0.0 — see [LICENSE](./LICENSE). Use it, learn from it, fork it for
+anything that isn't commercial.
