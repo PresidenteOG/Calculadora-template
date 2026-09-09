@@ -10,7 +10,7 @@ Type a number, pick an operation, type another number, hit equals, and it comput
 the result; `AC` resets, `±` flips the sign of whatever's on screen, `%` converts the current value
 to a percentage.
 
-![Calculadora architecture: browser UI feeds script.js, which updates the DOM](./docs/architecture.png)
+![Calculadora architecture: the buttons in index.html feed the inline script, which updates the display in the DOM](./docs/architecture.png)
 
 **Why vanilla JavaScript, no framework**: a single screen with a dozen buttons and one piece of
 state (the current expression) doesn't need a framework's overhead — React or Vue would add a

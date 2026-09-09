@@ -26,7 +26,7 @@ Open `index.html` in any browser. That's it.
 
 ## Architecture
 
-![Calculadora architecture: browser UI feeds script.js, which updates the DOM](./docs/architecture.png)
+![Calculadora architecture: the buttons in index.html feed the inline script, which updates the display in the DOM](./docs/architecture.png)
 
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for how it's structured and what it demonstrates.
 
