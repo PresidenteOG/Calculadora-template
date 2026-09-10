@@ -8,6 +8,9 @@
 
 A single-file calculator built as a self-contained web page.
 
+**Live:** https://presidenteog.github.io/web-calculator/ — deployed straight from `main` by
+GitHub Actions on every push.
+
 ## Showcase
 
 ![Calculator running in a browser, mid-calculation: 8 times 4 shown as 32](./docs/screenshot.png)
